@@ -1,6 +1,6 @@
 #![deny(warnings)]
-extern crate ethereum_types;
 extern crate serde;
+pub extern crate web3;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde_json;

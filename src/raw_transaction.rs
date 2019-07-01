@@ -1,4 +1,4 @@
-use ethereum_types::{H160, H256, U256};
+use web3::types::{H160, H256, U256};
 use rlp::RlpStream;
 use tiny_keccak::keccak256;
 use secp256k1::key::SecretKey;
