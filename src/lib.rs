@@ -3,10 +3,10 @@ extern crate serde;
 pub extern crate web3;
 #[macro_use]
 extern crate serde_derive;
-extern crate serde_json;
-extern crate tiny_keccak;
+pub extern crate rlp;
 extern crate secp256k1;
-extern crate rlp;
+extern crate tiny_keccak;
+
 
 mod raw_transaction;
 
