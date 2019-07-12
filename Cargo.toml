@@ -18,4 +18,4 @@ rlp = "0.2.2"
 
 [dependencies.web3]
 git = "https://github.com/gakonst/rust-web3"
-branch = "v6-backports"
+rev = "ebb3897d7f4ab3a71dbaf168fe4ac2846904d376"
