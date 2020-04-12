@@ -1,8 +1,9 @@
-#![deny(warnings)]
+// #![deny(warnings)]
 extern crate ethereum_types;
 extern crate serde;
 #[macro_use]
 extern crate serde_derive;
+extern crate hex;
 extern crate rlp;
 extern crate secp256k1;
 extern crate serde_json;
