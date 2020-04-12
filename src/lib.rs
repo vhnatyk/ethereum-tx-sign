@@ -1,12 +1,13 @@
-#![deny(warnings)]
+// #![deny(warnings)]
+extern crate ethereum_types;
 extern crate serde;
-pub extern crate web3;
 #[macro_use]
 extern crate serde_derive;
-pub extern crate rlp;
+extern crate hex;
+extern crate rlp;
 extern crate secp256k1;
+extern crate serde_json;
 extern crate tiny_keccak;
-
 
 mod raw_transaction;
 
